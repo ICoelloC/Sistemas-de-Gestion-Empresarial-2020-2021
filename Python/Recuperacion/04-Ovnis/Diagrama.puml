@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Personaje <|-- Humano
+Personaje <|-- Alien
+Ovni"1" --* "1,n"Alien
+Mundo"1" --> "1,n" Humano
+Mundo"1" --> "1,n"Ovni
+
+class Personaje{
+    - str nombre = ""
+    - int pos_x = 0
+    - Mundo mundo = None
+}
+
+class Humano{
+    - str nombre = ""
+    - int pos_x = 0
+    - Mundo mundo = None
+}
+
+class Alien{
+    - str nombre = ""
+    - int pos_x = 0
+    - Mundo mundo = None
+}
+
+class Ovni{
+    - tripulantes = []
+}
+
+class Mundo{
+    mapa[]
+}
+
+@enduml

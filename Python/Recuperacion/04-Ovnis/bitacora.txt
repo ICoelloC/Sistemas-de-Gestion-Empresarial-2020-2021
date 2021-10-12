@@ -1,0 +1,414 @@
+Mundo ==> Nombre: Mundo #1
+Objetos: 
+Humano ==> Nombre: Humano #0, Posicion: 130
+Humano ==> Nombre: Humano #1, Posicion: 43
+Humano ==> Nombre: Humano #2, Posicion: -110
+Humano ==> Nombre: Humano #3, Posicion: -65
+Humano ==> Nombre: Humano #4, Posicion: 169
+Humano ==> Nombre: Humano #6, Posicion: 191
+Humano ==> Nombre: Humano #7, Posicion: -130
+Humano ==> Nombre: Humano #8, Posicion: -152
+Humano ==> Nombre: Humano #9, Posicion: 191
+Humano ==> Nombre: Humano #10, Posicion: -85
+Humano ==> Nombre: Humano #11, Posicion: -128
+Humano ==> Nombre: Humano #12, Posicion: 47
+Humano ==> Nombre: Humano #13, Posicion: -148
+Humano ==> Nombre: Humano #14, Posicion: 141
+Humano ==> Nombre: Humano #15, Posicion: 193
+Humano ==> Nombre: Humano #16, Posicion: 106
+Humano ==> Nombre: Humano #17, Posicion: -111
+Humano ==> Nombre: Humano #18, Posicion: -22
+Humano ==> Nombre: Humano #19, Posicion: -177
+Humano ==> Nombre: Humano #21, Posicion: -73
+Humano ==> Nombre: Humano #22, Posicion: -64
+Humano ==> Nombre: Humano #23, Posicion: -70
+Humano ==> Nombre: Humano #24, Posicion: 108
+Humano ==> Nombre: Humano #25, Posicion: 26
+Humano ==> Nombre: Humano #26, Posicion: -116
+Humano ==> Nombre: Humano #27, Posicion: 140
+Humano ==> Nombre: Humano #28, Posicion: 49
+Humano ==> Nombre: Humano #29, Posicion: -162
+Humano ==> Nombre: Humano #30, Posicion: -72
+Humano ==> Nombre: Humano #31, Posicion: 144
+Humano ==> Nombre: Humano #32, Posicion: -40
+Humano ==> Nombre: Humano #34, Posicion: -44
+Humano ==> Nombre: Humano #35, Posicion: 164
+Humano ==> Nombre: Humano #36, Posicion: -150
+Humano ==> Nombre: Humano #37, Posicion: 137
+Humano ==> Nombre: Humano #38, Posicion: -97
+Humano ==> Nombre: Humano #39, Posicion: -134
+Ovni #0 ==> Nombre: Ovni #0, Posicion: 121
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #1 ==> Nombre: Ovni #1, Posicion: 186
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+		Alien ==> Nombre: Humano #5
+		Alien ==> Nombre: Humano #33
+
+Ovni #2 ==> Nombre: Ovni #2, Posicion: 112
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #3 ==> Nombre: Ovni #3, Posicion: 95
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #4 ==> Nombre: Ovni #4, Posicion: 93
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #5 ==> Nombre: Ovni #5, Posicion: 153
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #6 ==> Nombre: Ovni #6, Posicion: -78
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #7 ==> Nombre: Ovni #7, Posicion: 174
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #8 ==> Nombre: Ovni #8, Posicion: -52
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: Humano #20
+
+Ovni #9 ==> Nombre: Ovni #9, Posicion: 24
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Mundo ==> Nombre: Mundo #1
+Objetos: 
+Humano ==> Nombre: Humano #0, Posicion: -35
+Humano ==> Nombre: Humano #1, Posicion: 159
+Humano ==> Nombre: Humano #2, Posicion: -21
+Humano ==> Nombre: Humano #3, Posicion: -187
+Humano ==> Nombre: Humano #4, Posicion: -194
+Humano ==> Nombre: Humano #6, Posicion: -68
+Humano ==> Nombre: Humano #7, Posicion: -54
+Humano ==> Nombre: Humano #8, Posicion: -31
+Humano ==> Nombre: Humano #9, Posicion: -150
+Humano ==> Nombre: Humano #10, Posicion: 196
+Humano ==> Nombre: Humano #11, Posicion: -95
+Humano ==> Nombre: Humano #12, Posicion: 178
+Humano ==> Nombre: Humano #13, Posicion: 159
+Humano ==> Nombre: Humano #14, Posicion: -19
+Humano ==> Nombre: Humano #15, Posicion: 9
+Humano ==> Nombre: Humano #16, Posicion: 52
+Humano ==> Nombre: Humano #17, Posicion: -116
+Humano ==> Nombre: Humano #18, Posicion: -131
+Humano ==> Nombre: Humano #21, Posicion: -188
+Humano ==> Nombre: Humano #22, Posicion: 56
+Humano ==> Nombre: Humano #23, Posicion: -10
+Humano ==> Nombre: Humano #24, Posicion: 164
+Humano ==> Nombre: Humano #25, Posicion: -62
+Humano ==> Nombre: Humano #26, Posicion: 178
+Humano ==> Nombre: Humano #27, Posicion: 160
+Humano ==> Nombre: Humano #28, Posicion: 191
+Humano ==> Nombre: Humano #29, Posicion: 194
+Humano ==> Nombre: Humano #30, Posicion: -175
+Humano ==> Nombre: Humano #31, Posicion: -128
+Humano ==> Nombre: Humano #32, Posicion: 98
+Humano ==> Nombre: Humano #34, Posicion: 188
+Humano ==> Nombre: Humano #35, Posicion: -145
+Humano ==> Nombre: Humano #36, Posicion: -80
+Humano ==> Nombre: Humano #37, Posicion: -139
+Humano ==> Nombre: Humano #38, Posicion: 125
+Humano ==> Nombre: Humano #39, Posicion: 139
+Ovni #0 ==> Nombre: Ovni #0, Posicion: 109
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #1 ==> Nombre: Ovni #1, Posicion: 145
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+		Alien ==> Nombre: Humano #5
+		Alien ==> Nombre: Humano #33
+
+Ovni #2 ==> Nombre: Ovni #2, Posicion: 46
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #3 ==> Nombre: Ovni #3, Posicion: -38
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #4 ==> Nombre: Ovni #4, Posicion: -50
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #5 ==> Nombre: Ovni #5, Posicion: -79
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #6 ==> Nombre: Ovni #6, Posicion: -147
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #7 ==> Nombre: Ovni #7, Posicion: 25
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: Humano #19
+
+Ovni #8 ==> Nombre: Ovni #8, Posicion: -52
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: Humano #20
+
+Ovni #9 ==> Nombre: Ovni #9, Posicion: -168
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Mundo ==> Nombre: Mundo #1
+Objetos: 
+Humano ==> Nombre: Humano #0, Posicion: 165
+Humano ==> Nombre: Humano #1, Posicion: -33
+Humano ==> Nombre: Humano #2, Posicion: 93
+Humano ==> Nombre: Humano #3, Posicion: 198
+Humano ==> Nombre: Humano #4, Posicion: 2
+Humano ==> Nombre: Humano #6, Posicion: -101
+Humano ==> Nombre: Humano #7, Posicion: -94
+Humano ==> Nombre: Humano #8, Posicion: -34
+Humano ==> Nombre: Humano #9, Posicion: -170
+Humano ==> Nombre: Humano #10, Posicion: 115
+Humano ==> Nombre: Humano #11, Posicion: 144
+Humano ==> Nombre: Humano #12, Posicion: 55
+Humano ==> Nombre: Humano #13, Posicion: -143
+Humano ==> Nombre: Humano #14, Posicion: 87
+Humano ==> Nombre: Humano #15, Posicion: 183
+Humano ==> Nombre: Humano #16, Posicion: 156
+Humano ==> Nombre: Humano #17, Posicion: -69
+Humano ==> Nombre: Humano #18, Posicion: -15
+Humano ==> Nombre: Humano #21, Posicion: -83
+Humano ==> Nombre: Humano #22, Posicion: 162
+Humano ==> Nombre: Humano #23, Posicion: -9
+Humano ==> Nombre: Humano #24, Posicion: -199
+Humano ==> Nombre: Humano #25, Posicion: 129
+Humano ==> Nombre: Humano #26, Posicion: -153
+Humano ==> Nombre: Humano #27, Posicion: 133
+Humano ==> Nombre: Humano #28, Posicion: 133
+Humano ==> Nombre: Humano #29, Posicion: -89
+Humano ==> Nombre: Humano #30, Posicion: -176
+Humano ==> Nombre: Humano #31, Posicion: 48
+Humano ==> Nombre: Humano #32, Posicion: -77
+Humano ==> Nombre: Humano #34, Posicion: -13
+Humano ==> Nombre: Humano #35, Posicion: 7
+Humano ==> Nombre: Humano #36, Posicion: 59
+Humano ==> Nombre: Humano #37, Posicion: 196
+Humano ==> Nombre: Humano #38, Posicion: 131
+Humano ==> Nombre: Humano #39, Posicion: 137
+Ovni #0 ==> Nombre: Ovni #0, Posicion: 180
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #1 ==> Nombre: Ovni #1, Posicion: -76
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+		Alien ==> Nombre: Humano #5
+		Alien ==> Nombre: Humano #33
+
+Ovni #2 ==> Nombre: Ovni #2, Posicion: -55
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #3 ==> Nombre: Ovni #3, Posicion: -11
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #4 ==> Nombre: Ovni #4, Posicion: -131
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #5 ==> Nombre: Ovni #5, Posicion: -125
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #6 ==> Nombre: Ovni #6, Posicion: 125
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #7 ==> Nombre: Ovni #7, Posicion: 78
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: Humano #19
+
+Ovni #8 ==> Nombre: Ovni #8, Posicion: -113
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: Humano #20
+
+Ovni #9 ==> Nombre: Ovni #9, Posicion: 166
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Mundo ==> Nombre: Mundo #1
+Objetos: 
+Humano ==> Nombre: Humano #0, Posicion: 26
+Humano ==> Nombre: Humano #1, Posicion: 115
+Humano ==> Nombre: Humano #2, Posicion: 2
+Humano ==> Nombre: Humano #3, Posicion: -162
+Humano ==> Nombre: Humano #4, Posicion: 99
+Humano ==> Nombre: Humano #7, Posicion: -94
+Humano ==> Nombre: Humano #8, Posicion: 174
+Humano ==> Nombre: Humano #9, Posicion: -31
+Humano ==> Nombre: Humano #10, Posicion: -181
+Humano ==> Nombre: Humano #11, Posicion: -61
+Humano ==> Nombre: Humano #13, Posicion: -143
+Humano ==> Nombre: Humano #14, Posicion: -141
+Humano ==> Nombre: Humano #15, Posicion: 61
+Humano ==> Nombre: Humano #16, Posicion: 136
+Humano ==> Nombre: Humano #17, Posicion: -148
+Humano ==> Nombre: Humano #18, Posicion: -17
+Humano ==> Nombre: Humano #21, Posicion: 33
+Humano ==> Nombre: Humano #22, Posicion: 35
+Humano ==> Nombre: Humano #23, Posicion: 87
+Humano ==> Nombre: Humano #24, Posicion: -180
+Humano ==> Nombre: Humano #25, Posicion: 88
+Humano ==> Nombre: Humano #26, Posicion: -91
+Humano ==> Nombre: Humano #27, Posicion: 152
+Humano ==> Nombre: Humano #28, Posicion: -94
+Humano ==> Nombre: Humano #29, Posicion: 195
+Humano ==> Nombre: Humano #30, Posicion: -87
+Humano ==> Nombre: Humano #31, Posicion: 130
+Humano ==> Nombre: Humano #32, Posicion: 156
+Humano ==> Nombre: Humano #34, Posicion: -154
+Humano ==> Nombre: Humano #35, Posicion: -193
+Humano ==> Nombre: Humano #36, Posicion: 158
+Humano ==> Nombre: Humano #37, Posicion: 4
+Humano ==> Nombre: Humano #38, Posicion: 93
+Humano ==> Nombre: Humano #39, Posicion: 31
+Ovni #0 ==> Nombre: Ovni #0, Posicion: 20
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+		Alien ==> Nombre: Humano #6
+
+Ovni #1 ==> Nombre: Ovni #1, Posicion: 153
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+		Alien ==> Nombre: Humano #5
+		Alien ==> Nombre: Humano #33
+
+Ovni #2 ==> Nombre: Ovni #2, Posicion: -38
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+Ovni #3 ==> Nombre: Ovni #3, Posicion: -187
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #4 ==> Nombre: Ovni #4, Posicion: -80
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+
+Ovni #5 ==> Nombre: Ovni #5, Posicion: -183
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+
+Ovni #6 ==> Nombre: Ovni #6, Posicion: 24
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: Humano #12
+
+Ovni #7 ==> Nombre: Ovni #7, Posicion: 57
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: Humano #19
+
+Ovni #8 ==> Nombre: Ovni #8, Posicion: -73
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: Humano #20
+
+Ovni #9 ==> Nombre: Ovni #9, Posicion: -173
+	Aliens: 
+		Alien ==> Nombre: alien #0
+		Alien ==> Nombre: alien #1
+		Alien ==> Nombre: alien #2
+		Alien ==> Nombre: alien #3
+
+
+
