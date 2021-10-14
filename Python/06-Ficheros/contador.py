@@ -1,15 +1,13 @@
 from io import open
 import sys
 
-fichero = open("contador.txt", "a+")
-fichero.seek(0)
-contenido = fichero.readline()
+with open("contador.txt", "a+") as fichero:
+    fichero.seek(0)
+    contenido = fichero.readline()
 
-if len(contenido) == 0:
-    contenido = "0"
-    fichero.write(contenido)
-
-fichero.close()
+    if len(contenido) == 0:
+        contenido = "0"
+        fichero.write(contenido)
 
 # Vamos a intentar transformar el texto a un número
 try:
@@ -24,10 +22,7 @@ try:
 
     print(contador)
 
-    # Finalmente volvemos a escribir los cambios en el fichero
-    fichero = open("contador.txt", "w")
-    fichero.write( str(contador) )
-    fichero.close()
-
+    with open("contador.txt", "w") as fichero:
+        fichero.write( str(contador) )
 except:
     print("Error: Fichero corrupto.")

@@ -49,9 +49,8 @@ def pedir_entero(mensaje):
     correcto = False
     while not correcto:
         try:
-            num = int(input(mensaje))
             correcto = True
-            return num
+            return int(input(mensaje))
         except ValueError:
             print("Debe introducir un valor numérico")
 
@@ -84,44 +83,49 @@ def num_ocurrencias_listas(lista1, lista2):
 def sustituir_elemento_elegir_lista(lista1, lista2):
     """Sustituye un elemento en la lista elegida por otro elemento"""
     num_lista = pedir_entero("Número de lista (1/2): ")
-    if not num_lista == 1 and not num_lista == 2:
-        print("Número de lista erróneo.")
+    if num_lista in [1, 2]:
+        _extracted_from_sustituir_elemento_elegir_lista_7(num_lista, lista1, lista2)
     else:
-        elemento = input("Elemento a sustituir: ")
-        elemento_nuevo = input("Elemento nuevo: ")
-        if num_lista == 1:
-            sustituir_elemento(lista1, elemento, elemento_nuevo)
-        else:
-            sustituir_elemento(lista2, elemento, elemento_nuevo)
+        print("Número de lista erróneo.")
     print("LISTA1: " + str(lista1))
     print("LISTA2: " + str(lista2))
+
+# TODO Rename this here and in `sustituir_elemento_elegir_lista`
+def _extracted_from_sustituir_elemento_elegir_lista_7(num_lista, lista1, lista2):
+    elemento = input("Elemento a sustituir: ")
+    elemento_nuevo = input("Elemento nuevo: ")
+    if num_lista == 1:
+        sustituir_elemento(lista1, elemento, elemento_nuevo)
+    else:
+        sustituir_elemento(lista2, elemento, elemento_nuevo)
 
 
 def ordenar_elegir_lista(lista1, lista2):
     """Ordena una lista elegida"""
     num_lista = pedir_entero("Número de lista (1/2): ")
-    if not num_lista == 1 and not num_lista == 2:
-        print("Número de lista erróneo.")
+    if num_lista == 1:
+        lista1.sort()
+        print("LISTA1: " + str(lista1))
+    elif num_lista == 2:
+        lista2.sort()
+        print("LISTA2: " + str(lista2))
     else:
-        if num_lista == 1:
-            lista1.sort()
-            print("LISTA1: " + str(lista1))
-        else:
-            lista2.sort()
-            print("LISTA2: " + str(lista2))
+        print("Número de lista erróneo.")
 
 
 def lista_diferencia_elegir_lista(lista1, lista2):
     """Elige la lista minuendo"""
     num_lista = pedir_entero("Lista minuendo (1/2): ")
-    if not num_lista == 1 and not num_lista == 2:
-        print("Número de lista erróneo")
+    if num_lista in [1, 2]:
+        return (
+            lista_diff(lista1, lista2)
+            if num_lista == 1
+            else lista_diff(lista2, lista2)
+        )
+
+
     else:
-        if num_lista == 1:
-            lista = lista_diff(lista1, lista2)
-        else:
-            lista = lista_diff(lista2, lista2)
-        return lista
+        print("Número de lista erróneo")
 
 
 def operar_listas(lista1, lista2):

@@ -10,7 +10,5 @@ class FactoriaDelincuente:
         id_delincuente = input("Id del delincuente: ")
         nombre = input("Nombre del delincuente: ")
         n = Utilidades.get_entero("Número de delitos: ")
-        delitos = []
-        for i in range(n):
-            delitos.append(input("Delito: "))
+        delitos = [input("Delito: ") for _ in range(n)]
         return Delincuente(id_delincuente, nombre, delitos)

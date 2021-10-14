@@ -48,10 +48,8 @@ class Individuo():
             self.pos_x += distancia
 
         # No permitimos salirnos del límite -200, 200
-        if self.pos_x < -20:
-            self.pos_x = -20
-        if self.pos_x > 20:
-            self.pos_x = 20
+        self.pos_x = max(self.pos_x, -20)
+        self.pos_x = min(self.pos_x, 20)
 
     def __str__(self):
         clase = type(self).__name__

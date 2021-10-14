@@ -15,14 +15,12 @@ def simulacion(ubicacion):
 
 
 if __name__ == "__main__":
-    seguir = True
     bitacora = ""
     parar = input("Deseas parar (S o s para parar): ")
-    if parar == "S" or parar == "s":
-        seguir = False
+    seguir = parar not in ["S", "s"]
     while seguir and mundo.quedan_humanos():
         bitacora += simulacion(mundo)
         escribir_fichero(bitacora)
         parar = input("Deseas parar (S o s para parar): ")
-        if parar == "S" or parar == "s":
+        if parar in ["S", "s"]:
             seguir = False

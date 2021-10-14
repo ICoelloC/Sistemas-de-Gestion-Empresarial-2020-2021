@@ -42,10 +42,7 @@ def add_elemento(elemento, lista, error_msg):
 
 def esta_elemento(elemento, lista):
     '''Nos indica si el elemento se encuentra en la lista'''
-    if elemento in lista:
-        return True
-    else:
-        return False
+    return elemento in lista
 
 def remove_elemento(elemento, lista, error_msg):
     '''Elimina el elemento de la lista. Si no se encuentra, lanzará una excepción con el mensaje de error recibido por

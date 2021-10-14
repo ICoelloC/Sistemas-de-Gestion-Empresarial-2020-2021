@@ -13,7 +13,7 @@ cadena2 = input("Cadena a reemplazar:")
 apariciones = lista.count(cadena)
 pos=0
 
-for i in range(0,apariciones):
+for _ in range(apariciones):
     pos = lista.index(cadena,pos)
     lista[pos]=cadena2
 

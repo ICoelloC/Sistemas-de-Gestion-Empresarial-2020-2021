@@ -21,7 +21,7 @@ def realizar_acciones_simulacion(oficina):
                 individuo.desplazar(distancia, direccion)
             # Además de los desplazamientos, vamos a incrementar en una semana el tiempo para los infectados
             if type(individuo).__name__ == "Infectado":
-                for i in range(0, 3):  # En cada iteración de la simulación pasan 3 dias
+                for _ in range(3):  # En cada iteración de la simulación pasan 3 dias
                     individuo.incrementar_dia()
 
                 # Vamos a decidir si el infectado recibe tratamiento (tiene un 5% de posibilidades)

@@ -6,4 +6,4 @@ if cad1.find(cad2)>-1:
 else:
     print ("cad2 no es subcadena de cad1")
 
-print(cad1 if cad1<cad2 else cad2)
+print(min(cad1, cad2))

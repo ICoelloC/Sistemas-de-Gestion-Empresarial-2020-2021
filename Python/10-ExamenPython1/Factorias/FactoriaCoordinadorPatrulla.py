@@ -20,7 +20,4 @@ class FactoriaCoordinadorPatrulla:
     def crear_delincuentes():
         """Obtenemos una lista de delincuentes para registrar"""
         n = Utilidades.get_entero("Número de delincuentes: ")
-        delincuentes = []
-        for i in range(n):
-            delincuentes.append(FactoriaDelincuente.crear_delincuente())
-        return delincuentes
+        return [FactoriaDelincuente.crear_delincuente() for _ in range(n)]

@@ -65,14 +65,8 @@ class Humano(Personaje):
 
     def __str__(self):
         clase = type(self).__name__
-        vivo = "VIVO"
-        peligro = "EN PELIGRO"
-        if not self.vivo:
-            vivo = "MUERTO"
-
-        if not self.necesita_ayuda:
-            peligro = ""
-
+        vivo = "MUERTO" if not self.vivo else "VIVO"
+        peligro = "" if not self.necesita_ayuda else "EN PELIGRO"
         msg = super().__str__()+ " => {0} => {1} {2}\nPerseguidores: "
         for i in self.perseguidores:
             msg += i.id + " "

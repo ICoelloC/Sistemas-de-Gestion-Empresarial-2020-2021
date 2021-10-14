@@ -1,9 +1,7 @@
 from io import open
 
-fichero = open('personas.txt','r', encoding="utf8")
-lineas = fichero.readlines()
-fichero.close()
-
+with open('personas.txt','r', encoding="utf8") as fichero:
+    lineas = fichero.readlines()
 personas = []
 for linea in lineas:
     # Borramos los saltos de línea y separamos

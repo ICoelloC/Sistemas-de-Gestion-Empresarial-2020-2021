@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-def crearLista():
+def crear_lista():
     numero = int(input("Número de palabras de la lista:"))
 
     if numero < 1:
@@ -13,38 +13,30 @@ def crearLista():
             lista.append(palabra)
         return lista
 
-def eliminarRepetidos(lista):
+def borrar_repetidos(lista):
     #Vamos a eliminar los elementos repetidos
     for i in range(len(lista)-1,-1,-1): #La recorremos de forma inversa porque eliminamos repetidos
         if lista[i] in lista[:i]:
             del(lista[i])
     return lista
 
-def elementosComunes(lista1, lista2):
-    comunes = []
-    for i in lista1:
-        if i in lista2:
-            comunes.append(i)
-    return comunes
+def elementos_comunes(lista1, lista2):
+    return [i for i in lista1 if i in lista2]
 
-def elementosSoloUnaLista(lista1,lista2):
-    elementos = []
-    for i in lista1:
-        if i not in lista2:
-            elementos.append(i)
-    return elementos
+def elementos_solo_una_lista(lista1,lista2):
+    return [i for i in lista1 if i not in lista2]
 
-primera = crearLista()
-primera = eliminarRepetidos(primera)
+primera = crear_lista()
+primera = borrar_repetidos(primera)
 print("Primera lista sin repetidos: ", primera)
-segunda = crearLista()
-segunda = eliminarRepetidos(segunda)
+segunda = crear_lista()
+segunda = borrar_repetidos(segunda)
 print("Segunda lista sin repetidos: ", segunda)
-comunes = elementosComunes(primera,segunda)
+comunes = elementos_comunes(primera,segunda)
 print("Palabras que aparecen en las dos listas: ", comunes)
-elementosSoloPrimera = elementosSoloUnaLista(primera, segunda)
+elementosSoloPrimera = elementos_solo_una_lista(primera, segunda)
 print("Palabras que aparecen sólo en la primera: ", primera)
-elementosSoloSegunda = elementosSoloUnaLista(segunda, primera)
+elementosSoloSegunda = elementos_solo_una_lista(segunda, primera)
 print("Palabras que aparecen sólo en la segunda: ", segunda)
 
 

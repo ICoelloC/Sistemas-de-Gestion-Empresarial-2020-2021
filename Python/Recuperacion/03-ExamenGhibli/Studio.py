@@ -99,30 +99,26 @@ class Studio:
         Utilities.remove_element(vehicle, self.__vehicles, error_msg)
 
     def get_film(self, film):
-        if Utilities.is_element(film, self.films):
-            index = self.films.index(film)
-            return self.films[index]
-        else:
+        if not Utilities.is_element(film, self.films):
             raise ValueError("Película no registrada. Película: " + str(film))
+
+        index = self.films.index(film)
+        return self.films[index]
 
     def get_character(self, character):
         '''Devuelve el personaje de la colección de personajes. Se basa internamente en buscarlo en su id. Los
         datos reales de los personajes están en la lista de personajes del studio'''
-        if Utilities.is_element(character, self.people):
-            index = self.people.index(character)
-            return self.people[index]
-        else:
+        if not Utilities.is_element(character, self.people):
             raise ValueError("Personaje no registrado. Personaje: " + str(character))
 
+        index = self.people.index(character)
+        return self.people[index]
+
     def is_film_studio(self, film):
-        if film in self.films:
-            return True
-        return False
+        return film in self.films
 
     def is_character_studio(self, character):
-        if character in self.people:
-            return True
-        return False
+        return character in self.people
 
     def __eq__(self, studio):
         return self.id == studio.id

@@ -17,15 +17,15 @@ def capitalizacion(cadena):
     return capitalizadas
 
 # Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
-def palabrasComiencenA(cadena):
+def palabras_comienzan_a(cadena):
     lista = cadena.split(" ")
-    resultado = ""
-    for palabra in lista:
-        if palabra.startswith("a") or palabra.startswith("A"):
-            resultado += palabra + " "
-    return resultado
+    return "".join(
+        palabra + " "
+        for palabra in lista
+        if palabra.startswith("a") or palabra.startswith("A")
+    )
 
 cad=input("Cadena:")
 print(iniciales(cad))
 print(capitalizacion(cad))
-print(palabrasComiencenA(cad))
+print(palabras_comienzan_a(cad))

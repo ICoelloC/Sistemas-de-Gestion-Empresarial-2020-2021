@@ -65,9 +65,9 @@ class Infectado(Individuo):
         prob = random.randint(0, 100)
         if self.recibe_tratamiento and prob < 90: # supera la enfermedad
             return True
-        if self.recibe_tratamiento and prob >= 90: # no supera la enfermedad
+        if self.recibe_tratamiento: # no supera la enfermedad
             return False
-        if not prob < 50: # supera la enfermedad sin tratamiento
+        if prob >= 50: # supera la enfermedad sin tratamiento
             return True
         return False # No supera la enfermedad sin tratamiento
 
@@ -93,9 +93,5 @@ class Infectado(Individuo):
     def __str__(self):
         clase = type(self).__name__
         msg = super().__str__()+ " => {0} => Fecha_infeccion: {1}, Dias infeccion: {2} => "
-        if self.vivo:
-            msg += "VIVO"
-        else:
-            msg += "MUERTO"
-
+        msg += "VIVO" if self.vivo else "MUERTO"
         return msg.format(clase, self.fecha_infeccion, self.dias_infeccion)

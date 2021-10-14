@@ -23,7 +23,7 @@ class Control():
         self.__modulo = modulo
 
     def mover(self):
-        if (type(self.modulo).__name__ == "ModuloTraslacion") or (type(self.modulo).__name__ == "ModuloRotacion"):
+        if type(self.modulo).__name__ in ["ModuloTraslacion", "ModuloRotacion"]:
             msg = self.modulo.motor.funcionar()
         else: #Helicoidal
             for m in self.modulo.motores:

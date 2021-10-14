@@ -47,9 +47,10 @@ class Alumno(Persona):
         # Convierte la información de alumno en un diccionario
         alumno_dict = super().to_dictionary()
         datos_alumno = alumno_dict[self.dni]
-        asignaturas_matricula = []
-        for asignatura in self.__asignaturas_matricula:
-            asignaturas_matricula.append(asignatura.codigo)
+        asignaturas_matricula = [
+            asignatura.codigo for asignatura in self.__asignaturas_matricula
+        ]
+
         datos_alumno["asignaturas"] = asignaturas_matricula
         alumno_dict[self.dni] = datos_alumno
         return alumno_dict

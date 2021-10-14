@@ -16,7 +16,7 @@ class Utilidades:
         return valor
 
     @staticmethod
-    def grabarJSON(registro):
+    def grabar_json(registro):
         nombre = input("Fichero JSON: ")
         fichero = open(nombre, "w")
         json.dump(registro, fichero)

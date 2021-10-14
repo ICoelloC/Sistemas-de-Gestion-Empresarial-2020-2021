@@ -29,7 +29,7 @@ class Aldea():
         i = 0
         while not depredadores and i < len(self.dinosaurios):
             d = self.dinosaurios[i]
-            if d.vivo and (type(d).__name__ == "Rex" or type(d).__name__ == "Spinosaurus"):
+            if d.vivo and type(d).__name__ in ["Rex", "Spinosaurus"]:
                 depredadores = True
             i+=1
         return depredadores

@@ -84,11 +84,8 @@ class Personaje():
             self.pos_x += distancia
 
         # No permitimos salirnos del límite -200, 200
-        if self.pos_x < -200:
-            self.pos_x = -200
-        if self.pos_x > 200:
-            self.pos_x = 200
-
+        self.pos_x = max(self.pos_x, -200)
+        self.pos_x = min(self.pos_x, 200)
         self.energia -= energia
         if self.energia == 0:
             self.morir()

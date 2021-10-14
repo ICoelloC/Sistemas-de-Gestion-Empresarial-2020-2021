@@ -58,10 +58,12 @@ class Character():
     def to_dictionary(self):
         # Convierte la información de film en un diccionario
         character_dict = {}
-        character_data = {}
-        character_data["gender"] = self.gender
-        character_data["age"] = self.age
-        character_data["film"] = self.film.title
-        character_data["specie"] = self.specie
+        character_data = {
+            'gender': self.gender,
+            'age': self.age,
+            'film': self.film.title,
+            'specie': self.specie,
+        }
+
         character_dict.setdefault(self.name, character_data)
         return character_dict

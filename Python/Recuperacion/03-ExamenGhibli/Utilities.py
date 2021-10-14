@@ -49,10 +49,7 @@ def add_element(element, list, error_msg):
 
 def is_element(element, list):
     '''Nos indica si el elemento se encuentra en la lista'''
-    if element in list:
-        return True
-    else:
-        return False
+    return element in list
 
 
 def remove_element(element, list, error_msg):

@@ -203,7 +203,7 @@ def pedir_datos_alumno():
     while not salir:
         print("Introduzca los códigos de las asignaturas pendientes (S o s)")
         codigo = input("Código asignatura: ")
-        if codigo != "S" and codigo != "s":
+        if codigo not in ["S", "s"]:
             alumno.matricular_asignatura(Asignatura(codigo))
         else:
             salir = True

@@ -36,5 +36,5 @@ for cod in lista_morse:
     for key,valor in codigo.items():
         if valor == cod:
             letra = key
-    palabra=palabra+letra
+    palabra += letra
 print (palabra)

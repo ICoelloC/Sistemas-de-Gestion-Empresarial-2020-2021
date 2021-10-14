@@ -28,8 +28,5 @@ class FactoriaPatrulla:
     def crear_ciberpolicias(id):
         """Crea la lista de ciberpolicias que formarán una patrulla"""
         nPolicias = Utilidades.get_entero("Número de ciberpolicías: ")
-        ciberpolicias = []
-        for i in range(nPolicias):
-            ciberpolicias.append(FactoriaPolicia.crear_policia(id))
-        return ciberpolicias
+        return [FactoriaPolicia.crear_policia(id) for _ in range(nPolicias)]
 

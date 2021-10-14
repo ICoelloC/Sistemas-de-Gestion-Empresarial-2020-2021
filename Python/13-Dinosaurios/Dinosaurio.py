@@ -12,10 +12,7 @@ class Dinosaurio():
         self.manada = manada
         self.alimentacion = alimentacion
         self.bipedo = bipedo
-        if self.energia > 0:
-            self.vivo = True
-        else:
-            self.vivo = False
+        self.vivo = self.energia > 0
 
     @property
     def id(self):
@@ -94,11 +91,8 @@ class Dinosaurio():
             self.pos_x += distancia
 
         # No permitimos salirnos del límite -200, 200
-        if self.pos_x < -200:
-            self.pos_x = -200
-        if self.pos_x > 200:
-            self.pos_x = 200
-
+        self.pos_x = max(self.pos_x, -200)
+        self.pos_x = min(self.pos_x, 200)
         self.energia -= energia
         if self.energia == 0:
             self.morir()
@@ -134,21 +128,8 @@ class Dinosaurio():
     def __str__(self):
         clase = type(self).__name__
         msg = "{0} => ID: {1}, Energía: {2}, Posición: {3}, "
-        if self.manada:
-            msg += "Manada, "
-        else:
-            msg += "Solitario, "
-
-        if self.bipedo:
-            msg += "Bípedo, "
-        else:
-            msg += "No es bípedo, "
-
+        msg += "Manada, " if self.manada else "Solitario, "
+        msg += "Bípedo, " if self.bipedo else "No es bípedo, "
         msg += "Alimentacion: {4} => "
-        if self.vivo:
-            msg += "VIVO"
-        else:
-            msg += "MUERTO"
-
-
+        msg += "VIVO" if self.vivo else "MUERTO"
         return msg.format(clase, self.id, self.energia, self.pos_x, self.alimentacion)

@@ -56,11 +56,11 @@ class Aula():
     def get_asignatura(self, asignatura):
         '''Devuelve la asignatura de la lista de asignaturas registradas. Se basa internamente en buscarlo en su código.
         Los datos reales de las asignaturas están en la lista de asignaturas del aula'''
-        if self.asignatura_en_curso(asignatura):
-            index = self.asignaturas.index(asignatura)
-            return self.asignaturas[index]
-        else:
+        if not self.asignatura_en_curso(asignatura):
             raise ValueError("Asignatura no registrada. Asignatura "+str(asignatura))
+
+        index = self.asignaturas.index(asignatura)
+        return self.asignaturas[index]
 
     def hay_asignaturas_impartidas_por(self, profesor):
         """Devuelve Trye si en el curso hay asignaturas impartidas por dicho profesor"""
@@ -134,11 +134,11 @@ class Aula():
     def get_profesor(self, profesor):
         '''Devuelve el profesor de la lista de profesores registrados. Se basa internamente en buscarlo en su DNI. Los
         datos reales de los profesores están en la lista de profesores del aula'''
-        if self.esta_profesor_en_curso(profesor):
-            index = self.profesores.index(profesor)
-            return self.profesores[index]
-        else:
+        if not self.esta_profesor_en_curso(profesor):
             raise ValueError("Profesor no registrado. Profesor "+str(profesor))
+
+        index = self.profesores.index(profesor)
+        return self.profesores[index]
 
     def __eq__(self, aula):
         return self.codigo == aula.codigo

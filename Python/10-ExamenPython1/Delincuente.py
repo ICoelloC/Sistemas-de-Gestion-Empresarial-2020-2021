@@ -19,5 +19,4 @@ class Delincuente(Persona):
 
     def get_dict(self):
         """Obtiene un diccionario con los datos del delincuente"""
-        datos = {'id': self.id, 'nombre': self.nombre, 'delito': self.actos_delictivos}
-        return datos
+        return {'id': self.id, 'nombre': self.nombre, 'delito': self.actos_delictivos}

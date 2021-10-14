@@ -19,7 +19,7 @@ def print_menu_principal():
         studio = cargar_json()
     elif opcion == 3:
         return 0
-    if not studio is None:
+    if studio is not None:
         print_menu_studio(studio)
 
 
@@ -157,9 +157,8 @@ def guardar_json(studio):
     fichero = input("Fichero: ")
     fichero += ".json"
     try:
-        fichero_json = open(fichero, "w")
-        json.dump(studio.to_dictionary(), fichero_json)
-        fichero_json.close()
+        with open(fichero, "w") as fichero_json:
+            json.dump(studio.to_dictionary(), fichero_json)
     except Exception as err:
         print(err)
 

@@ -16,13 +16,13 @@ class Zombie(Personaje):
 
     def recibir_grito(self):
         """El zombie recibe un grito y si está vivo se resta 100 de energía"""
-        if self.vivo:
-            if self.energia > 100:
-                self.energia -= 100;
-            else:
-                self.morir()
-        else:
+        if not self.vivo:
             raise ValueError("El personaje está muerto. Le da igual que le griten.")
+
+        if self.energia > 100:
+            self.energia -= 100;
+        else:
+            self.morir()
 
     def morder(self, personaje):
         """Sólo los zombies pueden morder a un personaje. Si es humano se convertirá en zombie"""
@@ -38,8 +38,6 @@ class Zombie(Personaje):
 
     def __str__(self):
         clase = type(self).__name__
-        vivo = "VIVO"
-        if not self.vivo:
-            vivo = "MUERTO"
+        vivo = "MUERTO" if not self.vivo else "VIVO"
         msg = super().__str__()+ " => {0} => {1}"
         return msg.format(clase, vivo)
